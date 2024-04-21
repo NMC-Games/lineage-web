@@ -125,6 +125,17 @@ input:focus, textarea:focus, button:focus {
     line-height: 1.6rem;
 }
 
+.multiline-text {
+    margin: 1rem auto 0 auto;
+    width: 80%;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #71675b;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.6rem;
+}
+
 @media (max-width: 768px) {
     .section-description {
         width: 85%;
@@ -1756,7 +1767,7 @@ ul.modal-feats {
 .footer {
     font-family: Helvetica, Arial, sans-serif;
     color: #c4ae78 !important;
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
@@ -1764,6 +1775,17 @@ ul.modal-feats {
     transition: all 0.33s;
     color: #c4ae78 !important;
     text-decoration: none;
+}
+
+.footer p {
+    text-align: center;
+    font-family: "Cinzel Decorative", "Palatino Light", Times, Times New Roman, Georgia, serif;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-top: 0.25rem;
+    color: #734a32;
+    font-size: 140%;
 }
 
 @media (min-width: 768px) {
